@@ -5,7 +5,7 @@
  */
 
 /* You can override the default Infima variables here. */
-:root {
+/*:root {
   --ifm-color-primary: #2e8555;
   --ifm-color-primary-dark: #29784c;
   --ifm-color-primary-darker: #277148;
@@ -15,10 +15,21 @@
   --ifm-color-primary-lightest: #3cad6e;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+}*/
+:root {
+  --ifm-color-primary: #fe0000; /* rojo puro */
+  --ifm-color-primary-dark: #e00000;
+  --ifm-color-primary-darker: #c40000;
+  --ifm-color-primary-darkest: #a00000;
+  --ifm-color-primary-light: #ff1a1a;
+  --ifm-color-primary-lighter: #ff3333;
+  --ifm-color-primary-lightest: #ff6666;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
-[data-theme="dark"] {
+/*[data-theme="dark"] {
   --ifm-color-primary: #25c2a0;
   --ifm-color-primary-dark: #21af90;
   --ifm-color-primary-darker: #1fa588;
@@ -27,7 +38,7 @@
   --ifm-color-primary-lighter: #32d8b4;
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
-}
+}*/
 
 .sidebar-item-label {
   display: flex;
@@ -38,4 +49,72 @@
   margin-right: 8px;
   font-size: 1rem;
   color: var(--ifm-menu-color);
+}
+
+/* General sidebar category */
+.theme-doc-sidebar-item-category {
+  position: relative;
+  cursor: pointer;
+  user-select: none;
+  padding-left: 24px;
+}
+
+/* Ícono de despliegue (pseudo-elemento) */
+.theme-doc-sidebar-item-category::before {
+  position: absolute;
+  left: 0;
+  top: 0.35em;
+  font-size: 0.8em;
+  transition: transform 0.3s ease;
+}
+
+/* Cuando está desplegado, rotamos la flecha */
+.theme-doc-sidebar-item-category--collapsed::before {
+  transform: rotate(0deg);
+}
+
+.theme-doc-sidebar-item-category--collapsed.theme-doc-sidebar-item-category--expanded::before {
+  transform: rotate(90deg);
+}
+
+/* Transición de los subitems */
+.menu__list {
+  transition: max-height 0.4s ease, opacity 0.3s ease;
+  overflow: hidden;
+}
+
+/* Efecto al expandir */
+.theme-doc-sidebar-item-category--expanded > .menu__list {
+  opacity: 1;
+  max-height: 1000px;
+}
+
+/* Efecto al colapsar */
+.theme-doc-sidebar-item-category--collapsed > .menu__list {
+  opacity: 0;
+  max-height: 0;
+}
+
+/* Categorías y enlaces en el nivel */
+.theme-doc-sidebar-item-category-level-1,
+.theme-doc-sidebar-item-link-level-1 {
+  background-color: #f3f4f6;
+  border-radius: 5px;
+  padding: 6px 10px;
+  margin: 4px 0;
+}
+
+/* Hover effect */
+.theme-doc-sidebar-item-link:hover {
+  background-color: #e0f0ff;
+  color: #0055aa;
+}
+.docs-wrapper {
+  background-color: #f8eded;
+}
+.theme-doc-sidebar-container {
+  background-color: #ffffff;
+}
+.theme-doc-toc-desktop {
+  background-color: white;
 }
