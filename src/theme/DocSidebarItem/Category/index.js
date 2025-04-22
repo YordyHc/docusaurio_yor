@@ -8,11 +8,11 @@ export default function Category(props) {
 
   const getIcon = (label) => {
     switch (label) {
-      case "Tutorial - Basics":
+      case " Tutorial - Basics":
         return (
           <FontAwesomeIcon icon={faPaperclip} className="sidebar-item-icon" />
         );
-      case "Tutorial - Extras":
+      case " Tutorial - Extras":
         return (
           <FontAwesomeIcon icon={faPuzzlePiece} className="sidebar-item-icon" />
         );

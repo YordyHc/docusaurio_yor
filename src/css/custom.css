@@ -16,17 +16,6 @@
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 }*/
-:root {
-  --ifm-color-primary: #fe0000; /* rojo puro */
-  --ifm-color-primary-dark: #e00000;
-  --ifm-color-primary-darker: #c40000;
-  --ifm-color-primary-darkest: #a00000;
-  --ifm-color-primary-light: #ff1a1a;
-  --ifm-color-primary-lighter: #ff3333;
-  --ifm-color-primary-lightest: #ff6666;
-  --ifm-code-font-size: 95%;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
-}
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 /*[data-theme="dark"] {
@@ -39,82 +28,137 @@
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }*/
+/* En tu archivo custom.css */
+@import url("https://fonts.googleapis.com/css2?family=Carter+One&display=swap");
 
-.sidebar-item-label {
-  display: flex;
-  align-items: center;
+:root {
+  --ifm-color-primary: #fe0000;
+  --ifm-color-primary-dark: #e00000;
+  --ifm-color-primary-darker: #c40000;
+  --ifm-color-primary-darkest: #a00000;
+  --ifm-color-primary-light: #ff1a1a;
+  --ifm-color-primary-lighter: #ff3333;
+  --ifm-color-primary-lightest: #ff6666;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.05);
+  --ifm-heading-font-family: "Carter One", sans-serif;
+  --ifm-border-radius-base: 12px;
+}
+.theme-doc-sidebar-item-category,
+.theme-doc-sidebar-item-link {
+  border-radius: 15px;
+  transition: background 0.2s;
+  font-family: "Carter One", sans-serif;
+}
+html {
+  scroll-behavior: smooth;
 }
 
-.sidebar-item-icon {
-  margin-right: 8px;
-  font-size: 1rem;
-  color: var(--ifm-menu-color);
+body h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Carter One", sans-serif;
+}
+/* Botones */
+.button {
+  border-radius: 40px;
+  padding: 0.6rem 1.5rem;
+  box-shadow: 0 4px 12px rgba(254, 0, 0, 0.3);
+  transition: all 0.3s ease;
 }
 
-/* General sidebar category */
-.theme-doc-sidebar-item-category {
-  position: relative;
-  cursor: pointer;
-  user-select: none;
-  padding-left: 24px;
+.button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(254, 0, 0, 0.4);
 }
 
-/* Ícono de despliegue (pseudo-elemento) */
-.theme-doc-sidebar-item-category::before {
-  position: absolute;
-  left: 0;
-  top: 0.35em;
-  font-size: 0.8em;
-  transition: transform 0.3s ease;
+/* Tarjetas */
+.card {
+  border-radius: 0px 60px 60px 60px;
+  overflow: hidden;
+  box-shadow: 0 16px 16px rgba(0, 0, 0, 0.149);
+  transition: all 0.3s ease;
 }
 
-/* Cuando está desplegado, rotamos la flecha */
-.theme-doc-sidebar-item-category--collapsed::before {
-  transform: rotate(0deg);
+.card:hover {
+  background-color: #ffdcdc;
+  transform: translateY(-4px);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.689);
 }
 
-.theme-doc-sidebar-item-category--collapsed.theme-doc-sidebar-item-category--expanded::before {
-  transform: rotate(90deg);
+/* Navegación principal */
+.navbar {
+  font-family: "Carter One", sans-serif;
+  border: 2px solid #ff1a1a;
+  border-radius: 0 0 25px 25px;
+  box-shadow: 0 2px 8px rgba(40, 8, 8, 0.34);
+  padding: 0.75rem 2rem;
 }
 
-/* Transición de los subitems */
-.menu__list {
-  transition: max-height 0.4s ease, opacity 0.3s ease;
+/* Sidebar */
+.menu {
+  border-right: 2px solid var(--ifm-color-primary-lightest);
+}
+
+.menu__link {
+  border-radius: 10px;
+  padding: 0.5rem 1rem;
+  transition: background 0.2s;
+}
+
+.menu__link--active,
+.menu__link:hover {
+  background: #f6adad;
+  color: var(--ifm-color-primary-darker);
+}
+
+.menu__list-item--collapsed:hover {
+  background-color: var(--ifm-color-primary-lightest);
+}
+/* Código */
+.codeBlockContainer {
+  border-radius: 10px;
   overflow: hidden;
 }
 
-/* Efecto al expandir */
-.theme-doc-sidebar-item-category--expanded > .menu__list {
-  opacity: 1;
-  max-height: 1000px;
+/* Footer */
+.footer {
+  background-color: #a10000;
+  border-top: 2px solid var(--ifm-color-primary-light);
+  padding-top: 2rem;
+  font-size: 0.9rem;
 }
 
-/* Efecto al colapsar */
-.theme-doc-sidebar-item-category--collapsed > .menu__list {
-  opacity: 0;
-  max-height: 0;
+/* Títulos */
+h1,
+h2,
+h3,
+h4 {
+  font-weight: 700;
+  letter-spacing: -0.5px;
 }
 
-/* Categorías y enlaces en el nivel */
-.theme-doc-sidebar-item-category-level-1,
-.theme-doc-sidebar-item-link-level-1 {
-  background-color: #f3f4f6;
-  border-radius: 5px;
-  padding: 6px 10px;
-  margin: 4px 0;
+/* Tabla de contenido */
+.table-of-contents {
+  border-left: 3px solid var(--ifm-color-primary-light);
+  padding-left: 1rem;
 }
 
-/* Hover effect */
-.theme-doc-sidebar-item-link:hover {
-  background-color: #e0f0ff;
-  color: #0055aa;
+.pagination-nav__link {
+  background-color: #f4cdcd;
+  border-radius: 25px;
+  padding: 12px 16px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
 }
-.docs-wrapper {
-  background-color: #f8eded;
-}
-.theme-doc-sidebar-container {
-  background-color: #ffffff;
-}
-.theme-doc-toc-desktop {
-  background-color: white;
+
+code,
+.theme-code-block {
+  padding: 2px 6px;
+  border-radius: 15px;
+  background-color: rgb(190, 251, 243);
+  font-family: monospace;
+  font-size: 1em;
 }
