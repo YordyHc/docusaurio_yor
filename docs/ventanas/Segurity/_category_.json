@@ -1,0 +1,8 @@
+{
+  "label": "Segurity",
+  "position": 7,
+  "link": {
+    "type": "generated-index",
+    "description": "La pestaña Security permite inspeccionar el estado de seguridad de una página web. Ayuda a identificar certificados, protocolos de cifrado y advertencias relacionadas con contenido inseguro."
+  }
+}
