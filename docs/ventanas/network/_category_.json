@@ -1,0 +1,8 @@
+{
+  "label": "Network",
+  "position": 4,
+  "link": {
+    "type": "generated-index",
+    "description": "La pestaña Network permite observar y analizar todas las solicitudes de red que realiza una página web. Estas pueden incluir archivos HTML, CSS, JavaScript, imágenes, fuentes, APIs, etc."
+  }
+}

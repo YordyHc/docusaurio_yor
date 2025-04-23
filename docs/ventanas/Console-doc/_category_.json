@@ -1,0 +1,8 @@
+{
+  "label": "Console",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "La pestaña Console permite interactuar directamente con la página web mediante comandos de JavaScript, visualizar errores, advertencias y realizar tareas de depuración en tiempo real."
+  }
+}

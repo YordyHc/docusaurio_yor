@@ -1,0 +1,8 @@
+{
+  "label": "Source",
+  "position": 3,
+  "link": {
+    "type": "generated-index",
+    "description": "La pestaña Sources permite inspeccionar, depurar y modificar el código fuente de las páginas web directamente desde el navegador."
+  }
+}
