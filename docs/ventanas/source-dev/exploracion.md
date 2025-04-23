@@ -1,4 +1,8 @@
-# Exploración y depuración
+---
+sidebar_position: 2
+id: exploración
+title: Exploración y depuración
+---
 
 ## Estructura de archivos
 

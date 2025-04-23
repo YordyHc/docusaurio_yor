@@ -1,4 +1,8 @@
-# Herramientas avanzadas
+---
+sidebar_position: 3
+id: herramientas
+title: Herramientas avanzadas
+---
 
 ## Workspace (espacio de trabajo)
 

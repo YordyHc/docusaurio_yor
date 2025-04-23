@@ -1,0 +1,8 @@
+{
+  "label": "Lighthouse",
+  "position": 8,
+  "link": {
+    "type": "generated-index",
+    "description": "La pestaña Lighthouse permite generar reportes automatizados de auditoría para evaluar el rendimiento, accesibilidad, SEO y buenas prácticas de una página web. Es una herramienta muy útil para optimizar sitios y convertirlos en PWA (Progressive Web Apps)."
+  }
+}

@@ -4,7 +4,7 @@ id: buena-practica
 title: Buenas Prácticas
 ---
 
-# y Recursos de Seguridad
+## y Recursos de Seguridad
 
 ## 🚀 Buenas prácticas de seguridad web
 
