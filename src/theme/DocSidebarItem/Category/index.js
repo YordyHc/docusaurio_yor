@@ -1,7 +1,11 @@
 import React from "react";
 import OriginalCategory from "@theme-original/DocSidebarItem/Category";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faPaperclip, faPuzzlePiece } from "@fortawesome/free-solid-svg-icons";
+import {
+  faPaperclip,
+  faPuzzlePiece,
+  faFolderOpen,
+} from "@fortawesome/free-solid-svg-icons";
 
 export default function Category(props) {
   const { item } = props;
@@ -17,7 +21,9 @@ export default function Category(props) {
           <FontAwesomeIcon icon={faPuzzlePiece} className="sidebar-item-icon" />
         );
       default:
-        return null;
+        return (
+          <FontAwesomeIcon icon={faFolderOpen} className="sidebar-item-icon" />
+        );
     }
   };
 

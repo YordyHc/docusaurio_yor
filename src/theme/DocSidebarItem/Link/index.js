@@ -8,7 +8,7 @@ export default function Link(props) {
 
   const getIcon = (label) => {
     switch (label) {
-      case "Tutorial Intro":
+      case "Introducción (DevTools)":
         return <FontAwesomeIcon icon={faHouse} className="sidebar-item-icon" />;
       default:
         return (

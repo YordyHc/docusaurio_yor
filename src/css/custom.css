@@ -46,10 +46,15 @@
 }
 .theme-doc-sidebar-item-category,
 .theme-doc-sidebar-item-link {
+  padding: 3px;
   border-radius: 15px;
   transition: background 0.2s;
   font-family: "Carter One", sans-serif;
 }
+.sidebar-item-icon {
+  margin-right: 10px; /* Ajusta el valor según lo que necesites */
+}
+
 html {
   scroll-behavior: smooth;
 }
