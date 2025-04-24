@@ -1,0 +1,8 @@
+{
+  "label": "Elements",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "La pestaña Elements es una de las herramientas más utilizadas en DevTools. Permite a los desarrolladores inspeccionar, depurar y modificar el DOM (Document Object Model) y los estilos CSS de una página en tiempo real."
+  }
+}
