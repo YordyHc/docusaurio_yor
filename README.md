@@ -1,41 +1,43 @@
-# Website
+# 📘 Manual de uso del Inspector (DevTools) — Documentación con Docusaurus
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+Este proyecto es una guía interactiva y detallada sobre cómo utilizar el **Inspector de elementos (DevTools)** de los navegadores modernos, desarrollada con [Docusaurus 3.7](https://docusaurus.io/).
 
-### Installation
+![alt text](static/imagenes_ignore/imgaen_sitio.png)
 
-```
-$ yarn
-```
+La documentación cubre funcionalidades clave como:
 
-### Local Development
+- Exploración del DOM con el panel **Elements**
+- Análisis de rendimiento con **Performance**
+- Depuración de código en **Sources**
+- Control de almacenamiento con **Application**
+- Monitorización de red en **Network**
+- Uso de **Breakpoints**, **Watchers**, y mucho más
 
-```
-$ yarn start
-```
+> Ideal para desarrolladores web que buscan dominar las herramientas de desarrollo del navegador.
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+---
 
-### Build
-
-```
-$ yarn build
-```
-
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
-
-### Deployment
-
-Using SSH:
+## 📁 Estructura del proyecto
 
 ```
-$ USE_SSH=true yarn deploy
+.
+├── docs/               # Archivos markdown de la documentación
+├── src/                # Personalizaciones del frontend (si existen)
+├── static/             # Recursos estáticos
+├── docusaurus.config.js
+├── sidebars.js
+├── package.json
+└── README.md
 ```
 
-Not using SSH:
+---
 
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
-```
+## ✍️ Contribuciones
 
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+Si encuentras errores o deseas ampliar la documentación, ¡las contribuciones son bienvenidas! Haz un fork, crea tu rama y abre un pull request 😊
+
+---
+
+## 🌐 Demo (opcional)
+
+Puedes ver una versión desplegada en Cpanel: [https://936920269.facturalo.co/docusaurus](https://936920269.facturalo.co/docusaurus)
