@@ -8,6 +8,8 @@ sidebar_position: 1
 
 El Inspector, también conocido como DevTools (Herramientas para desarrolladores), es un conjunto de herramientas integradas en los navegadores modernos que permite a los desarrolladores inspeccionar, depurar y modificar el contenido y el comportamiento de una página web en tiempo real. Estas herramientas son esenciales para el desarrollo y la optimización web, ya que proporcionan acceso directo al DOM, estilos CSS, red, consola, almacenamiento, rendimiento y más.
 
+![DEVTOOLS](/img/devtools.jpg)
+
 ## ¿Para qué sirve?
 
 DevTools es utilizado principalmente para:

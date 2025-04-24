@@ -10,8 +10,8 @@ import { themes as prismThemes } from "prism-react-renderer";
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "My Site",
-  tagline: "Dinosaurs are cool",
+  title: "Manual de uso del inspector\n(Devtools)",
+  tagline: "Una documentacion sobre como usar el inspector (devtools)",
   favicon: "img/logo_y.png",
 
   // Set the production url of your site here
@@ -45,8 +45,7 @@ const config = {
           sidebarPath: "./sidebars.js",
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
+          editUrl: "https://github.com/YordyHc/docusaurio_yor/blob/main/",
         },
         blog: {
           showReadingTime: true,
@@ -56,8 +55,7 @@ const config = {
           },
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
+          editUrl: "https://github.com/YordyHc/docusaurio_yor/blob/main/",
           // Useful options to enforce blogging best practices
           onInlineTags: "warn",
           onInlineAuthors: "warn",
@@ -76,7 +74,7 @@ const config = {
       // Replace with your project's social card
       image: "img/logo_y.png",
       navbar: {
-        title: "My Site",
+        title: "Manual del inspector",
         logo: {
           alt: "My Site Logo",
           src: "img/logo_y.png",
@@ -86,11 +84,11 @@ const config = {
             type: "docSidebar",
             sidebarId: "tutorialSidebar",
             position: "left",
-            label: "Tutorial",
+            label: "Docs",
           },
           { to: "/blog", label: "Blog", position: "left" },
           {
-            href: "https://github.com/facebook/docusaurus",
+            href: "https://github.com/YordyHc/docusaurio_yor",
             label: "GitHub",
             position: "right",
           },
@@ -134,7 +132,7 @@ const config = {
               },
               {
                 label: "GitHub",
-                href: "https://github.com/facebook/docusaurus",
+                href: "https://github.com/YordyHc/docusaurio_yor",
               },
             ],
           },

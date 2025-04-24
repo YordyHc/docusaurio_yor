@@ -1,45 +1,45 @@
-import clsx from 'clsx';
-import Heading from '@theme/Heading';
-import styles from './styles.module.css';
+import clsx from "clsx";
+import Heading from "@theme/Heading";
+import styles from "./styles.module.css";
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: "Explora el Código en Vivo",
+    image: require("@site/static/img/programador.jpg").default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Descubre cómo el Inspector de DevTools puede transformar la forma en que
+        entiendes y construyes sitios web.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: "Herramientas Profesionales al Alcance",
+    image: require("@site/static/img/herramientas.jpg").default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Aprende a inspeccionar, editar y depurar código directamente desde el
+        navegador con herramientas profesionales.
       </>
     ),
   },
   {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: "Domina DevTools sin Complicaciones",
+    image: require("@site/static/img/devtools-overview-hero.jpg").default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Este manual es tu entrada rápida y clara para dominar las funciones
+        clave de DevTools, sin complicaciones.
       </>
     ),
   },
 ];
 
-function Feature({Svg, title, description}) {
+function Feature({ image, title, description }) {
   return (
-    <div className={clsx('col col--4')}>
+    <div className={clsx("col col--4")}>
       <div className="text--center">
-        <Svg className={styles.featureSvg} role="img" />
+        <img src={image} className={styles.featureSvg} alt={title} />
       </div>
       <div className="text--center padding-horiz--md">
         <Heading as="h3">{title}</Heading>
