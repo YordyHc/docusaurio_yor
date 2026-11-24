@@ -1,16 +1,26 @@
 import React from "react";
 import OriginalCategory from "@theme-original/DocSidebarItem/Category";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { LiaTerminalSolid } from "react-icons/lia";
 import {
-  faPaperclip,
-  faPuzzlePiece,
-  faFolderOpen,
-  faDesktop,
-  faMobileScreenButton,
-  faStreetView,
-  faWandMagicSparkles,
-} from "@fortawesome/free-solid-svg-icons";
-import { faWindowRestore } from "@fortawesome/free-regular-svg-icons";
+  FaDesktop,
+  FaCode,
+  FaFolderOpen,
+  FaMobileScreenButton,
+  FaPaperclip,
+  FaPuzzlePiece,
+  FaSpider,
+  FaStreetView,
+  FaWandMagicSparkles,
+  FaWifi,
+  FaWindowRestore,
+} from "react-icons/fa6";
+
+import { BsSpeedometer2 } from "react-icons/bs";
+import { LuAppWindow } from "react-icons/lu";
+import { BiSolidLock } from "react-icons/bi";
+import { SiLighthouse } from "react-icons/si";
+
+const iconClassName = "sidebar-item-icon";
 
 export default function Category(props) {
   const { item } = props;
@@ -18,46 +28,37 @@ export default function Category(props) {
   const getIcon = (label) => {
     switch (label) {
       case " Tutorial - Basics":
-        return (
-          <FontAwesomeIcon icon={faPaperclip} className="sidebar-item-icon" />
-        );
+        return <FaPaperclip className={iconClassName} />;
       case " Tutorial - Extras":
-        return (
-          <FontAwesomeIcon icon={faPuzzlePiece} className="sidebar-item-icon" />
-        );
+        return <FaPuzzlePiece className={iconClassName} />;
       case "Interfaz grafica":
-        return (
-          <FontAwesomeIcon icon={faDesktop} className="sidebar-item-icon" />
-        );
+        return <FaDesktop className={iconClassName} />;
       case "Pestañas":
-        return (
-          <FontAwesomeIcon
-            icon={faWindowRestore}
-            className="sidebar-item-icon"
-          />
-        );
+        return <FaWindowRestore className={iconClassName} />;
       case "Responsive / Mobile":
-        return (
-          <FontAwesomeIcon
-            icon={faMobileScreenButton}
-            className="sidebar-item-icon"
-          />
-        );
+        return <FaMobileScreenButton className={iconClassName} />;
       case "Casos de uso practicos":
-        return (
-          <FontAwesomeIcon icon={faStreetView} className="sidebar-item-icon" />
-        );
+        return <FaStreetView className={iconClassName} />;
       case "Trucos avanzados":
-        return (
-          <FontAwesomeIcon
-            icon={faWandMagicSparkles}
-            className="sidebar-item-icon"
-          />
-        );
+        return <FaWandMagicSparkles className={iconClassName} />;
+      case "Elements":
+        return <FaCode className={iconClassName} />;
+      case "Console":
+        return <LiaTerminalSolid className={iconClassName} />;
+      case "Source":
+        return <FaSpider className={iconClassName} />;
+      case "Network":
+        return <FaWifi className={iconClassName} />;
+      case "Performance":
+        return <BsSpeedometer2 className={iconClassName} />;
+      case "Application":
+        return <LuAppWindow className={iconClassName} />;
+      case "Security":
+        return <BiSolidLock className={iconClassName} />;
+      case "Lighthouse":
+        return <SiLighthouse className={iconClassName} />;
       default:
-        return (
-          <FontAwesomeIcon icon={faFolderOpen} className="sidebar-item-icon" />
-        );
+        return <FaFolderOpen className={iconClassName} />;
     }
   };
 

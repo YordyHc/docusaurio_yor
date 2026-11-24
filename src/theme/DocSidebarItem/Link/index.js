@@ -1,7 +1,8 @@
 import React from "react";
 import OriginalLink from "@theme-original/DocSidebarItem/Link";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faHouse, faFontAwesome } from "@fortawesome/free-solid-svg-icons";
+import { FaHouse, FaFileLines } from "react-icons/fa6";
+
+const iconClassName = "sidebar-item-icon";
 
 export default function Link(props) {
   const { item } = props;
@@ -9,11 +10,10 @@ export default function Link(props) {
   const getIcon = (label) => {
     switch (label) {
       case "Introducción (DevTools)":
-        return <FontAwesomeIcon icon={faHouse} className="sidebar-item-icon" />;
+        return <FaHouse className={iconClassName} />;
+
       default:
-        return (
-          <FontAwesomeIcon icon={faFontAwesome} className="sidebar-item-icon" />
-        );
+        return <FaFileLines className={iconClassName} />;
     }
   };
 
