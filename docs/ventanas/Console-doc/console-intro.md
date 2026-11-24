@@ -19,6 +19,8 @@ console.error("Ocurrió un error inesperado");
 console.warn("Esta función está obsoleta");
 ```
 
+![CONSOLA](/img/docs/consola.png)
+
 ## Consejos adicionales
 
 - Puedes guardar resultados en variables temporales (`temp1`, `temp2`, etc.).

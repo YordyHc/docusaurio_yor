@@ -18,3 +18,5 @@ title: Grabación y análisis de rendimiento
 - **Timings**: Incluye eventos como DOMContentLoaded y Load.
 - **Screenshots**: Captura miniaturas de la página durante la grabación.
 - **Summary**: Proporciona una vista general con detalles sobre scripting, rendering y painting.
+
+![PERFORMANCE](/img/docs/perf.png)

@@ -12,6 +12,8 @@ Haz clic derecho en una solicitud y selecciona "Copy as cURL" para reproducirla 
 
 Botón derecho → "Block request URL" para simular que no existe.
 
+![NETWORK](/img/docs/red.png)
+
 ## Exportar tráfico HAR
 
 Haz clic derecho en cualquier parte de la lista → "Save all as HAR with content" para guardar el tráfico en formato HAR.

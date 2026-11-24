@@ -21,3 +21,5 @@ El Device Toolbar permite personalizar la experiencia móvil simulada:
 - **Throttling**: cambia la velocidad de conexión (como 3G lento).
 - **User Agent**: modifica el user-agent para emular navegadores móviles.
 - **Agregar dispositivos personalizados** desde configuración.
+
+![RESPONSIVE](/img/docs/responsive.png)

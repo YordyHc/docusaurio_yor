@@ -15,4 +15,6 @@ Se representa como un diagrama en el panel derecho e incluye:
 - **Border**: contorno del elemento.
 - **Margin**: espacio exterior entre el borde del elemento y otros elementos.
 
+![BOX-MODEL](/img/docs/box-model.png)
+
 Puedes editar directamente cualquier valor haciendo clic sobre él, lo que permite experimentar con el diseño y distribución de los elementos sin modificar el CSS original.

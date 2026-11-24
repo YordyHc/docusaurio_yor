@@ -21,3 +21,5 @@ Lighthouse es una herramienta de código abierto integrada en Chrome DevTools qu
 3. Elige las categorías a auditar.
 4. Elige si la auditoría será en **mobile** o **desktop**.
 5. Haz clic en **Analyze page load**.
+
+![LIGHTHOUSE](/img/docs/lighthouse.png)

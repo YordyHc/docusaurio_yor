@@ -17,3 +17,5 @@ Al cargar una página, DevTools muestra:
 - Si la conexión es segura.
 - Si se detectaron recursos inseguros.
 - Información del certificado SSL/TLS.
+
+![SEGURIDAD](/img/docs/seguridad.png)

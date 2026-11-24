@@ -8,6 +8,8 @@ title: Vista del DOM
 
 En el panel principal de la pestaña **Elements** se muestra la estructura del HTML renderizado en forma de árbol de nodos (DOM tree). Puedes interactuar con estos nodos de las siguientes formas:
 
+![VISTA-DOOM](/img/docs/vista-doom.png)
+
 - Expandir/contraer etiquetas HTML para navegar la jerarquía.
 - Hacer clic derecho sobre un nodo para:
   - **Edit as HTML**: modificar el HTML directamente.
