@@ -6,7 +6,7 @@ title: Mejora Continua
 
 ## y Recursos
 
-## ✨ Buenas Prácticas sugeridas por Lighthouse
+## Buenas Prácticas sugeridas por Lighthouse
 
 - Optimizar imágenes (uso de formatos como WebP o AVIF).
 - Eliminar JavaScript no utilizado.
@@ -20,7 +20,7 @@ title: Mejora Continua
 - **GitHub Actions / CI**: Automatización de auditorías.
 - **Web.dev**: Guías oficiales de mejora continua.
 
-## 🔗 Recursos útiles
+## Recursos útiles
 
 - [Lighthouse en web.dev](https://web.dev/measure/)
 - [Documentación oficial](https://github.com/GoogleChrome/lighthouse)

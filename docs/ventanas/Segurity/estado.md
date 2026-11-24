@@ -4,11 +4,11 @@ id: estado
 title: Seguridad de la página
 ---
 
-### 🔒 Indicadores visuales
+### Indicadores visuales
 
-- ✅ **Secure**: La página se entrega usando HTTPS válido con cifrado fuerte.
-- ⚠️ **Warnings**: Hay elementos mixtos o problemas menores de seguridad.
-- ❌ **Not Secure**: La página se entrega por HTTP o tiene fallos en el certificado.
+- **Secure**: La página se entrega usando HTTPS válido con cifrado fuerte.
+- **Warnings**: Hay elementos mixtos o problemas menores de seguridad.
+- **Not Secure**: La página se entrega por HTTP o tiene fallos en el certificado.
 
 ### Vista general
 

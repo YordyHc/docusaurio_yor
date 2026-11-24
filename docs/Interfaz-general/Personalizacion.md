@@ -16,7 +16,7 @@ Haz clic derecho sobre cualquier pestaña para acceder al menú contextual que p
 
 ## Tema claro/oscuro
 
-El tema de DevTools puede ajustarse automáticamente según el sistema operativo o configurarse manualmente desde el menú de ajustes (ícono de engranaje ⚙️).
+El tema de DevTools puede ajustarse automáticamente según el sistema operativo o configurarse manualmente desde el menú de ajustes (ícono de engranaje).
 
 ## Posición del panel
 
@@ -27,7 +27,7 @@ Puedes cambiar la ubicación de DevTools:
 
 ## Configuración avanzada
 
-Desde el menú de configuración (`⚙️`):
+Desde el menú de configuración:
 
 - Cambiar el tamaño y fuente del editor.
 - Activar funciones experimentales.

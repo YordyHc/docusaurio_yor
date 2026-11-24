@@ -4,7 +4,7 @@ id: estilos
 title: Estilos CSS
 ---
 
-## 🌟 Panel de Estilos CSS
+## Panel de Estilos CSS
 
 El panel lateral derecho en la pestaña **Elements** permite inspeccionar y editar reglas CSS asociadas al elemento seleccionado en el DOM.
 

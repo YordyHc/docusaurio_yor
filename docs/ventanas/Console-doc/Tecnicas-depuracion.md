@@ -4,7 +4,7 @@ sidebar_position: 3
 
 # Tecnicas de Depuración
 
-## 🐞 Depurar con `console`
+## Depurar con `console`
 
 ### Trazar el flujo de ejecución
 
@@ -41,7 +41,7 @@ console.log("Paso 2");
 console.groupEnd();
 ```
 
-## 🧰 Herramientas complementarias
+## Herramientas complementarias
 
 - Acceder al DOM desde consola para inspección dinámica.
 - Invocar funciones globales para pruebas rápidas.

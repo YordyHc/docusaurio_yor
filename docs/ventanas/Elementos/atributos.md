@@ -4,7 +4,7 @@ id: atributos
 title: Atributos y Clases
 ---
 
-## 🔒 Atributos y Clases
+## Atributos y Clases
 
 La pestaña **Elements** permite inspeccionar y modificar los atributos HTML de un nodo, incluyendo `id`, `class`, `src`, `href`, `alt`, etc.
 

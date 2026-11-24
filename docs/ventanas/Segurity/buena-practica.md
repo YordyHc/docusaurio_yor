@@ -6,7 +6,7 @@ title: Buenas Prácticas
 
 ## y Recursos de Seguridad
 
-## 🚀 Buenas prácticas de seguridad web
+## Buenas prácticas de seguridad web
 
 - Siempre usar HTTPS con redirección automática desde HTTP.
 - Configurar HSTS (HTTP Strict Transport Security).

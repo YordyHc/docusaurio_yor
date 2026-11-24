@@ -4,7 +4,7 @@ sidebar_position: 2
 
 # Overrides Locales
 
-## 🗂️ ¿Qué es?
+## ¿Qué es?
 
 Permite modificar archivos de un sitio web directamente en DevTools y que se conserven entre recargas.
 
@@ -25,9 +25,9 @@ Permite modificar archivos de un sitio web directamente en DevTools y que se con
 1. Edita un archivo CSS desde la pestaña **Sources**.
 2. Guarda y recarga: el navegador usará tu versión local.
 
-## Precauciones ⚠️
+## Precauciones
 
 - No olvides desactivar el override cuando cambies de proyecto.
 - Algunos archivos como imágenes o scripts de terceros pueden no ser sobreescribibles.
 
-🎯 Ideal para pruebas A/B, prototipos rápidos y depuración en caliente.
+Ideal para pruebas A/B, prototipos rápidos y depuración en caliente.

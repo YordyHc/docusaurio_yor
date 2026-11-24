@@ -4,7 +4,7 @@ id: vista
 title: Vista del DOM
 ---
 
-# 🧱 Vista del DOM
+# Vista del DOM
 
 En el panel principal de la pestaña **Elements** se muestra la estructura del HTML renderizado en forma de árbol de nodos (DOM tree). Puedes interactuar con estos nodos de las siguientes formas:
 

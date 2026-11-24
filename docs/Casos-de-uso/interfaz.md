@@ -4,7 +4,7 @@ id: interfaz
 title: Interfaz y Depuración Visual
 ---
 
-## 🎨 Cambiar estilo de un botón
+## Cambiar estilo de un botón
 
 1. Haz clic derecho sobre el botón y selecciona **Inspect**.
 2. En la pestaña **Elements**, localiza el elemento `button` en el DOM.
@@ -20,7 +20,7 @@ title: Interfaz y Depuración Visual
 
 ---
 
-## 🪟 Inspeccionar un modal oculto
+## Inspeccionar un modal oculto
 
 Los modales suelen estar ocultos con `display: none` o `visibility: hidden`.
 

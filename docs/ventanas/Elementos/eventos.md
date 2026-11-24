@@ -4,7 +4,7 @@ id: eventos
 title: Eventos y Accesibilidad
 ---
 
-### 🎉 Event Listeners
+### Event Listeners
 
 En el panel lateral de la pestaña **Elements**, se puede acceder a una sección llamada **Event Listeners**. Esta muestra los eventos JavaScript asociados al nodo seleccionado:
 
@@ -12,7 +12,7 @@ En el panel lateral de la pestaña **Elements**, se puede acceder a una sección
 - Indica el archivo y la línea donde está definido el listener.
 - Permite navegar rápidamente al código fuente relacionado.
 
-### 🌐 Accesibilidad
+### Accesibilidad
 
 Otra sección importante es **Accessibility**, que brinda información sobre la semántica y el rol del elemento:
 

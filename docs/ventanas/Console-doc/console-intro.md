@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Console – Introducción
 
-## 📌 Visualizar errores y advertencias
+## Visualizar errores y advertencias
 
 La consola muestra automáticamente:
 
@@ -19,13 +19,13 @@ console.error("Ocurrió un error inesperado");
 console.warn("Esta función está obsoleta");
 ```
 
-## 🧐 Consejos adicionales
+## Consejos adicionales
 
 - Puedes guardar resultados en variables temporales (`temp1`, `temp2`, etc.).
 - Usa `Ctrl + L` (o `Cmd + K` en macOS) para limpiar la consola.
 - Marca la opción **Preserve log** para mantener los logs tras recargar la página.
 
-## 📚 Recursos útiles
+## Recursos útiles
 
 - [Documentación oficial de DevTools (MDN)](https://developer.mozilla.org/en-US/docs/Tools/Web_Console)
 - [Guía de métodos console.\*](https://developer.mozilla.org/en-US/docs/Web/API/console)

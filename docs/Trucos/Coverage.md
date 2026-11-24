@@ -4,7 +4,7 @@ sidebar_position: 3
 
 # Uso de Coverage
 
-## 📏 ¿Qué es la herramienta "Coverage"?
+## ¿Qué es la herramienta "Coverage"?
 
 Una función de DevTools que analiza qué partes del CSS y JavaScript se están utilizando realmente.
 
@@ -19,7 +19,7 @@ Una función de DevTools que analiza qué partes del CSS y JavaScript se están 
 - Verás una lista de archivos con su porcentaje de uso.
 - Cada archivo muestra el código utilizado en verde y el no utilizado en rojo.
 
-## Recomendaciones 🧠
+## Recomendaciones
 
 - Interactúa con todos los elementos posibles antes de terminar el análisis.
 - Haz scroll, abre modales, usa formularios.
@@ -30,4 +30,4 @@ Una función de DevTools que analiza qué partes del CSS y JavaScript se están 
 - Eliminación de código muerto.
 - Mejora de la mantenibilidad.
 
-🚀 Ideal para proyectos grandes o auditorías de rendimiento.
+Ideal para proyectos grandes o auditorías de rendimiento.

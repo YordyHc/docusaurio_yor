@@ -4,7 +4,7 @@ id: box-model
 title: Box Model
 ---
 
-## 📊 Modelo de Caja (Box Model)
+## Modelo de Caja (Box Model)
 
 El **Box Model** visualiza las dimensiones del elemento seleccionado: contenido, padding, border y margin.
 

@@ -4,7 +4,7 @@ id: analisis-detallado
 title: Análisis Detallado
 ---
 
-## 🔢 Interpretación del informe
+## Interpretación del informe
 
 - Cada sección tiene un puntaje del 0 al 100.
 - Los detalles incluyen recomendaciones y recursos relacionados.

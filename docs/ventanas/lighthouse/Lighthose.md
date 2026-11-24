@@ -4,7 +4,7 @@ id: Lighthouse
 title: Lighthouse - Introduccion
 ---
 
-## 🔄 ¿Qué es Lighthouse?
+## ¿Qué es Lighthouse?
 
 Lighthouse es una herramienta de código abierto integrada en Chrome DevTools que analiza una página web y genera un informe con puntajes en diferentes categorías:
 
@@ -14,7 +14,7 @@ Lighthouse es una herramienta de código abierto integrada en Chrome DevTools qu
 - **SEO**: Optimización para motores de búsqueda.
 - **PWA**: Comprobación de características necesarias para ser considerada app progresiva.
 
-## ⚙️ ¿Cómo generar un reporte?
+## ¿Cómo generar un reporte?
 
 1. Abre DevTools (F12 o clic derecho > Inspeccionar).
 2. Ve a la pestaña **Lighthouse**.

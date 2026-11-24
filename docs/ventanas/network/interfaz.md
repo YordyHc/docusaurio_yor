@@ -10,7 +10,7 @@ Al abrir la pestaña Network, verás una interfaz con varias secciones clave:
 ### Barra superior de control
 
 - **Botón de grabación (●):** Activa o pausa la captura de tráfico.
-- **Clear (🗑):** Limpia la lista de solicitudes.
+- **Clear:** Limpia la lista de solicitudes.
 - **Filtros:** Permite filtrar por tipo de archivo (JS, XHR, Img, etc.).
 - **Caja de búsqueda:** Filtra solicitudes por nombre o contenido.
 

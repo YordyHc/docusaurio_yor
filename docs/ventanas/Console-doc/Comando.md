@@ -4,7 +4,7 @@ sidebar_position: 2
 
 # Comandos en tiempo real
 
-## ⌨️ Uso de comandos en tiempo real
+## Uso de comandos en tiempo real
 
 Desde la consola puedes ejecutar comandos directamente en el contexto de la página actual:
 
@@ -18,7 +18,7 @@ Desde la consola puedes ejecutar comandos directamente en el contexto de la pág
 document.querySelector("h1").textContent = "Texto modificado desde consola";
 ```
 
-## 🔧 Comandos útiles y atajos
+## Comandos útiles y atajos
 
 ### Elementos seleccionados
 

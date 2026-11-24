@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Snippets Personalizados
 
-## ✂️ ¿Qué son los snippets?
+## ¿Qué son los snippets?
 
 Son fragmentos de código JavaScript reutilizables que puedes guardar y ejecutar desde DevTools.
 
@@ -14,7 +14,7 @@ Son fragmentos de código JavaScript reutilizables que puedes guardar y ejecutar
 2. Clic derecho > `New` > asigna un nombre.
 3. Escribe el código. Ejemplo:
    ```js
-   console.log("🚀 Hola desde el snippet");
+   console.log("Hola desde el snippet");
    alert("¡Snippet ejecutado!");
    ```
 4. Ejecuta con clic derecho > `Run` o con `Ctrl + Enter`.
@@ -25,7 +25,7 @@ Son fragmentos de código JavaScript reutilizables que puedes guardar y ejecutar
 - Probar funciones de JS sin modificar el código fuente.
 - Automatizar pruebas rápidas o tareas repetitivas.
 
-## Consejos 🧠
+## Consejos
 
 - Guarda snippets útiles para cada proyecto.
 - Crea snippets para limpiar `localStorage`, `sessionStorage`, cookies, o para generar datos falsos con `faker.js`.

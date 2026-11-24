@@ -6,7 +6,7 @@ title: Detalles de Certificados
 
 ## y Contenido Mixto
 
-## 📂 Información del certificado
+## Información del certificado
 
 Puedes ver detalles del certificado de seguridad:
 
@@ -28,7 +28,7 @@ fetch("https://tu-sitio.com").then((resp) => {
 
 ---
 
-## ⚡ Contenido mixto (Mixed Content)
+## Contenido mixto (Mixed Content)
 
 Ocurre cuando una página HTTPS carga recursos desde HTTP.
 
