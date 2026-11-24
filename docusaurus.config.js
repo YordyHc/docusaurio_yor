@@ -12,7 +12,7 @@ import { themes as prismThemes } from "prism-react-renderer";
 const config = {
   title: "Manual DevTools",
   tagline: "Una documentacion sobre como usar el inspector (devtools)",
-  favicon: "img/logo_y.png",
+  favicon: "img/logo_manual.png",
 
   // Set the production url of your site here
   url: "https://your-docusaurus-site.example.com",
@@ -72,12 +72,12 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: "img/logo_y.png",
+      image: "img/logo_manual.png",
       navbar: {
         title: "Manual DevTools",
         logo: {
           alt: "My Site Logo",
-          src: "img/logo_y.png",
+          src: "img/logo_manual.png",
         },
         items: [
           {

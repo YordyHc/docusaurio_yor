@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { config } from "@fortawesome/fontawesome-svg-core";
 import "@fortawesome/fontawesome-svg-core/styles.css";
 
@@ -6,5 +6,18 @@ import "@fortawesome/fontawesome-svg-core/styles.css";
 config.autoAddCss = false;
 
 export default function Root({ children }) {
-  return <>{children}</>;
+  useEffect(() => {
+    const handleScroll = () => {
+      document
+        .querySelector(".navbar")
+        ?.classList.toggle("navbar--scrolled", window.scrollY > 20);
+    };
+
+    handleScroll();
+    window.addEventListener("scroll", handleScroll);
+
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
+  return children;
 }
