@@ -5,7 +5,12 @@ import {
   faPaperclip,
   faPuzzlePiece,
   faFolderOpen,
+  faDesktop,
+  faMobileScreenButton,
+  faStreetView,
+  faWandMagicSparkles,
 } from "@fortawesome/free-solid-svg-icons";
+import { faWindowRestore } from "@fortawesome/free-regular-svg-icons";
 
 export default function Category(props) {
   const { item } = props;
@@ -19,6 +24,35 @@ export default function Category(props) {
       case " Tutorial - Extras":
         return (
           <FontAwesomeIcon icon={faPuzzlePiece} className="sidebar-item-icon" />
+        );
+      case "Interfaz grafica":
+        return (
+          <FontAwesomeIcon icon={faDesktop} className="sidebar-item-icon" />
+        );
+      case "Pestañas":
+        return (
+          <FontAwesomeIcon
+            icon={faWindowRestore}
+            className="sidebar-item-icon"
+          />
+        );
+      case "Responsive / Mobile":
+        return (
+          <FontAwesomeIcon
+            icon={faMobileScreenButton}
+            className="sidebar-item-icon"
+          />
+        );
+      case "Casos de uso practicos":
+        return (
+          <FontAwesomeIcon icon={faStreetView} className="sidebar-item-icon" />
+        );
+      case "Trucos avanzados":
+        return (
+          <FontAwesomeIcon
+            icon={faWandMagicSparkles}
+            className="sidebar-item-icon"
+          />
         );
       default:
         return (
