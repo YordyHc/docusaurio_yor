@@ -5,7 +5,7 @@ import styles from "./styles.module.css";
 const FeatureList = [
   {
     title: "Explora el Código en Vivo",
-    image: require("@site/static/img/programador.jpg").default,
+    image: require("@site/static/img/programador-P.png").default,
     description: (
       <>
         Descubre cómo el Inspector de DevTools puede transformar la forma en que
@@ -15,7 +15,7 @@ const FeatureList = [
   },
   {
     title: "Herramientas Profesionales al Alcance",
-    image: require("@site/static/img/herramientas.jpg").default,
+    image: require("@site/static/img/herramientas-P.png").default,
     description: (
       <>
         Aprende a inspeccionar, editar y depurar código directamente desde el
