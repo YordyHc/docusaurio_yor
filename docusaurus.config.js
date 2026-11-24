@@ -10,7 +10,7 @@ import { themes as prismThemes } from "prism-react-renderer";
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "Manual de uso del inspector\n(Devtools)",
+  title: "Manual DevTools",
   tagline: "Una documentacion sobre como usar el inspector (devtools)",
   favicon: "img/logo_y.png",
 
@@ -74,7 +74,7 @@ const config = {
       // Replace with your project's social card
       image: "img/logo_y.png",
       navbar: {
-        title: "Manual del inspector",
+        title: "Manual DevTools",
         logo: {
           alt: "My Site Logo",
           src: "img/logo_y.png",

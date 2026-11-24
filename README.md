@@ -40,4 +40,4 @@ Si encuentras errores o deseas ampliar la documentación, ¡las contribuciones s
 
 ## 🌐 Demo (opcional)
 
-Puedes ver una versión desplegada en Cpanel: [https://936920269.facturalo.co/docusaurus](https://936920269.facturalo.co/docusaurus)
+Puedes ver una versión desplegada en: [https://manual-devtools.vercel.app/](https://manual-devtools.vercel.app/)
